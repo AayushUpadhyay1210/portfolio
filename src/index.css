@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #0a0c0e;
+  color: #f2f3f4;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #ff5a1f;
+  color: #0a0c0e;
+}
+
+/* Visible, on-brand focus state for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #ff5a1f;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Slim, quiet scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #262b30;
+  border-radius: 8px;
+  border: 2px solid #0a0c0e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4046;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Telemetry grid backdrop used behind hero and section headers */
+.bg-telemetry-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
