@@ -27,7 +27,7 @@ export function Highlights() {
               Problem Solving
             </p>
             <p className="mt-3 font-mono text-5xl md:text-6xl font-semibold text-ink tabular-nums group-hover:text-signal transition-colors">
-              180+
+              200+
             </p>
             <p className="mt-2 text-ink-muted">Problems solved on LeetCode</p>
           </div>
