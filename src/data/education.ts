@@ -7,7 +7,7 @@ export const education: EducationData[] = [
     title: 'B.Tech, Computer Science & Engineering (AI & ML Specialization)',
     institution: 'Vellore Institute of Technology, Vellore',
     detail: 'Expected Graduation: May 2028',
-    metric: '9.55',
+    metric: '9.54',
     metricLabel: 'CGPA / 10',
   },
   {

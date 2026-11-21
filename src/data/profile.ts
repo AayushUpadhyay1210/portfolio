@@ -12,7 +12,7 @@ export const profile = {
   status: 'Computer Science Student',
   institution: 'Vellore Institute of Technology, Vellore',
   specialization: 'AI & ML',
-  cgpa: '9.55 / 10',
+  cgpa: '9.54 / 10',
   expectedGraduation: 'May 2028',
   email: 'aayushupadhyay9000@gmail.com',
   phone: '+91 8810436138',

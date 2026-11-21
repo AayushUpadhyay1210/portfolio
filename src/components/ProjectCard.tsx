@@ -19,15 +19,6 @@ export function ProjectCard({
     >
       <div className="flex items-center justify-between px-6 md:px-8 pt-6 md:pt-8">
         <span className="font-mono text-xs text-signal">{project.index}</span>
-        <span
-          className={`font-mono text-[10px] tracking-widest2 uppercase px-2.5 py-1 border ${
-            project.status === 'Deployed'
-              ? 'border-telemetry/50 text-telemetry'
-              : 'border-base-border text-ink-dim'
-          }`}
-        >
-          {project.status}
-        </span>
       </div>
 
       <div className="px-6 md:px-8 pt-4">

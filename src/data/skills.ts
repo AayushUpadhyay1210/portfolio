@@ -23,6 +23,6 @@ export const skillGroups: SkillGroupData[] = [
     code: '04',
     title: 'Concepts',
     note: 'Current Focus',
-    items: ['Data Structures and Algorithms', 'Object-Oriented Programming'],
+    items: ['Data Structures and Algorithms', 'Object-Oriented Programming', 'Computer Networks', 'Operating Systems', 'Database Management System', 'AI/ML Fundamentals'],
   },
 ]

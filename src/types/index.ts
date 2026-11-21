@@ -14,7 +14,6 @@ export interface SkillGroupData {
 export interface ProjectData {
   id: string
   index: string
-  status: 'Deployed' | 'Prototype'
   name: string
   tagline: string
   problem: string
